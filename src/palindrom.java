@@ -12,7 +12,7 @@ public class palindrom {
             temp = temp/10;
         }
         if(rev == num){
-            System.out.println("Yes Palindrome");
+            System.out.println("Yes this is Palindrome");
         }else{
             System.out.println("Not a palindrome");
         }
