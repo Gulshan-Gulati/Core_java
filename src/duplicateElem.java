@@ -1,0 +1,18 @@
+import java.util.*;
+public class duplicateElem {
+    public static void main(String[] args) {
+        int[] arr = {2,1,3,4,2,5};
+        int n = arr.length;
+//        Arrays.sort(arr);
+        int duplicate = 0;
+        for(int i = 0; i<n-1; i++){
+            for(int j = i; j<n; j++){
+                if(arr[i] == arr[j]){
+                    duplicate  = arr[i];
+                }
+
+            }
+        }
+        System.out.println(duplicate);
+    }
+}
