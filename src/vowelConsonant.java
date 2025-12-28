@@ -15,7 +15,7 @@ public class vowelConsonant {
                 countConsonent++;
             }
         }
-        System.out.println(countVowel);
-        System.out.println(countConsonent);
+        System.out.println("Vowel Count: "+countVowel);
+        System.out.println("Consonent Count: "+countConsonent);
     }
 }
