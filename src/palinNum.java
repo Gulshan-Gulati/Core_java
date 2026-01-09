@@ -11,7 +11,7 @@ public class palinNum {
         if(num != rev){
             System.out.println("Not a palindrome Number");
         }else{
-            System.out.println("Palindrome Number");
+            System.out.println("Palindrome Numbers");
         }
     }
 }
