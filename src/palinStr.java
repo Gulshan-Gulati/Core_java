@@ -12,6 +12,6 @@ public class palinStr {
             low++;
             high--;
         }
-        System.out.println("Palindrome String");
+        System.out.println("yes this is a Palindrome String");
     }
 }
