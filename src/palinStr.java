@@ -6,7 +6,7 @@ public class palinStr {
         int high = n-1;
         while(low != high){
             if(str.charAt(low) != str.charAt(high)){
-                System.out.println("Not Palindrome");
+                System.out.println("Not Palindromes");
                 return;
             }
             low++;
