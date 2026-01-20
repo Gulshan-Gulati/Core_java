@@ -10,6 +10,7 @@ public class removeDuplicateUsingList {
                 list.add(arr[i]);
             }
         }
+        System.out.print("Result: ");
         System.out.println(list);
     }
 }

@@ -11,7 +11,8 @@ public class fiboNum {
             System.out.print(a + " " + b);
         }
         else if(num > 2) {
-            for (int i = 0; i < num; i++) {
+            System.out.print(a+" "+b+" ");
+            for (int i = 3; i < num; i++) {
                 int temp = a + b;
                 System.out.print(temp + " ");
                 a = b;
