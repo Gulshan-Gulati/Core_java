@@ -25,6 +25,6 @@ public class countsplit {
         int n = arr.length;
         countsplit obj = new countsplit();
         int ans = obj.splitCount(arr, 0, n-1);
-        System.out.println(ans);
+        System.out.println("Answer : " + ans);
     }
 }
